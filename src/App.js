@@ -19,7 +19,7 @@ const translations = {
     myWorks: "My Works",
     aboutMe: "About Me",
     aboutText:
-      "My name is Pavithra Subramanian, and I\’m an aspiring animator from Navi Mumbai, India. I started exploring digital animation at the age of 13, beginning with Live2D and Krita. Over time, I taught myself to use tools like Blender, After Effects, Photoshop, OpenToonz, and Clip Studio Paint , which I now use primarily for my animation work. My journey so far has been self-driven, fueled by curiosity, passion, and a desire to tell meaningful stories through movement and art.",
+      "My name is Pavithra Subramanian, and I’m an aspiring animator from Navi Mumbai, India. I started exploring digital animation at the age of 13, beginning with Live2D and Krita. Over time, I taught myself to use tools like Blender, After Effects, Photoshop, OpenToonz, and Clip Studio Paint , which I now use primarily for my animation work. My journey so far has been self-driven, fueled by curiosity, passion, and a desire to tell meaningful stories through movement and art.",
     contact: "Contact",
     name: "Name",
     email: "Email",
@@ -65,12 +65,7 @@ export default function PortfolioHome() {
     { src: artwork10, title: "Object Drawing",width:1318,height:1608 }
 ];
   
-  const handleImageClick = (artwork) => {
-    setExpandedImage(artwork);
-  };
-  const closeExpandedImage = () => {
-    setExpandedImage(null);
-  };
+
 
 
   useEffect(() => {
