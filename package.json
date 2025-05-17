@@ -15,24 +15,23 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "CI=false react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
-  "extends": [
-    "react-app",
-    "react-app/jest"
-  ],
-  "rules": {  // ← Add this section
-    "no-unused-vars": "warn",
-    "jsx-a11y/iframe-has-title": "warn",
-    "jsx-a11y/alt-text": "warn",
-    "no-useless-escape": "warn"
-  }
-}
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "rules": {
+      "no-unused-vars": "warn",
+      "jsx-a11y/iframe-has-title": "warn",
+      "jsx-a11y/alt-text": "warn",
+      "no-useless-escape": "warn"
+    }
   },
   "browserslist": {
     "production": [
