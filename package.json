@@ -22,10 +22,17 @@
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "extends": [
+    "react-app",
+    "react-app/jest"
+  ],
+  "rules": {  // ← Add this section
+    "no-unused-vars": "warn",
+    "jsx-a11y/iframe-has-title": "warn",
+    "jsx-a11y/alt-text": "warn",
+    "no-useless-escape": "warn"
+  }
+}
   },
   "browserslist": {
     "production": [
