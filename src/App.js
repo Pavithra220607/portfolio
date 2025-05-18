@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { Button } from './components/ui/button';
-import YoutubeEmbed from './components/YoutubeEmbed';
 import artwork1 from './assets/images/character design.jpg';
 import artwork2 from './assets/images/women.jpg';
 import artwork3 from './assets/images/men.jpg';
@@ -56,12 +55,12 @@ export default function PortfolioHome() {
   },
     { src: artwork4, title: "Human figure", year: "2023", width:2643,height:2550 },
     { src: artwork8, title: "Human figures",width:1217,height:1617},
-    { src: artwork7, title: "Human face practice",width:1799,height:2145},
     { src: artwork6, title: "Human figure",width:1429,height:1854},
-      { src: artwork9, title: "Hand Practice",width:2388,height:1138},
-    { src: artwork5, title: "Object Drawing",width:1567,height:2021 },
-    { src: artwork2, title: "Human figures",width:3506,height:2480},
     { src: artwork3, title: "Human figures",width:3506,height:2480 },
+    { src: artwork7, title: "Human face practice",width:1799,height:2145},
+    { src: artwork9, title: "Hand Practice",width:2388,height:1138},
+    { src: artwork2, title: "Human figures",width:3506,height:2480},
+    { src: artwork5, title: "Object Drawing",width:1567,height:2021 },
     { src: artwork10, title: "Object Drawing",width:1318,height:1608 }
 ];
   
