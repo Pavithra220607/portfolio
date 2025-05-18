@@ -61,7 +61,6 @@ export default function PortfolioHome() {
     { src: artwork7, title: "Human face practice",width:1799,height:2145},
     { src: artwork9, title: "Hand Practice",width:2388,height:1138},
     { src: artwork8, title: "Human figures",width:1217,height:1617},
-    { src: artwork5, title: "Object Drawing",width:1567,height:2021 },
     { src: artwork10, title: "Object Drawing",width:1318,height:1608 }
 ];
   
