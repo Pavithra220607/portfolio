@@ -53,7 +53,7 @@ export default function PortfolioHome() {
     title: lang === 'en' ? "Animation Reel" : "アニメーションリール",
     year: "2024"
   },
-    { src: artwork4, title: "Human figure", year: "2023", width:2643,height:2550 },
+    { src: artwork4, title: "Illustration", year: "2023", width:2643,height:2550 },
     
     { src: artwork6, title: "Human figure",width:1429,height:1854},
     { src: artwork2, title: "Human figures",width:3506,height:2480},
