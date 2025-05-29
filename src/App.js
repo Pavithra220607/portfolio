@@ -194,14 +194,13 @@ export default function PortfolioHome() {
     </button>
   </div>
 )}
-
+      
       {/* About Section */}
       <section id="about" className="py-16 px-6 bg-[#fff8f2]">
         <h3 className="text-3xl font-semibold mb-6">{t.aboutMe}</h3>
         <p className="max-w-2xl text-gray-700">{t.aboutText}</p>
       </section>
-
-{/* Contact Section */}
+      {/* Contact Section */}
 <section id="contact" className="py-16 px-6">
   <h3 className="text-3xl font-semibold mb-6">{t.contact}</h3>
   <form
@@ -244,7 +243,7 @@ export default function PortfolioHome() {
     <Button type="submit">{t.send}</Button>
   </form>
 </section>
-      </section>
+      
 
       {/* Footer */}
       <footer className="text-center py-6 text-sm text-gray-500">
