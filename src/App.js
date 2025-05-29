@@ -238,17 +238,7 @@ export default function PortfolioHome() {
     className="w-full border rounded p-2"
     required
   ></textarea>
-  
-  {/* Disable Captcha (optional) */}
-  <input type="hidden" name="_captcha" value="false" />
-  
-  {/* Redirect after submission (optional) */}
-  <input 
-    type="hidden" 
-    name="_next" 
-    value="https://yourportfolio.com/thanks.html" 
-  />
-  
+
   {/* Submit Button */}
   <Button type="submit">{t.send}</Button>
 </form>
