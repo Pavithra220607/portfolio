@@ -204,24 +204,54 @@ export default function PortfolioHome() {
       {/* Contact Section */}
       <section id="contact" className="py-16 px-6">
         <h3 className="text-3xl font-semibold mb-6">{t.contact}</h3>
-        <form className="max-w-md space-y-4">
-          <input
-            type="text"
-            placeholder={t.name}
-            className="w-full border rounded p-2"
-          />
-          <input
-            type="email"
-            placeholder={t.email}
-            className="w-full border rounded p-2"
-          />
-          <textarea
-            placeholder={t.message}
-            rows="4"
-            className="w-full border rounded p-2"
-          ></textarea>
-          <Button type="submit">{t.send}</Button>
-        </form>
+        <form 
+  className="max-w-md space-y-4"
+  action="https://formsubmit.co/pavithra.knpv@gmail.com" 
+  method="POST"
+>
+  {/* Add a hidden input for subject (optional) */}
+  <input type="hidden" name="_subject" value="New Portfolio Message!" />
+  
+  {/* Name Field */}
+  <input
+    type="text"
+    name="name"
+    placeholder={t.name}
+    className="w-full border rounded p-2"
+    required
+  />
+  
+  {/* Email Field */}
+  <input
+    type="email"
+    name="email"
+    placeholder={t.email}
+    className="w-full border rounded p-2"
+    required
+  />
+  
+  {/* Message Field */}
+  <textarea
+    name="message"
+    placeholder={t.message}
+    rows="4"
+    className="w-full border rounded p-2"
+    required
+  ></textarea>
+  
+  {/* Disable Captcha (optional) */}
+  <input type="hidden" name="_captcha" value="false" />
+  
+  {/* Redirect after submission (optional) */}
+  <input 
+    type="hidden" 
+    name="_next" 
+    value="https://yourportfolio.com/thanks.html" 
+  />
+  
+  {/* Submit Button */}
+  <Button type="submit">{t.send}</Button>
+</form>
       </section>
 
       {/* Footer */}
